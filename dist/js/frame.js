@@ -24,8 +24,8 @@
         cgLoadedFrames: (function() {
             var e, t, r, o = document.body.querySelectorAll('script[src*="exyzz.pl"]:not(.loaded), script[src*="importFrame-min"]:not(.loaded)'), i = o.length, n = [];
             for (r = 0; r < i; r++)
-                e = o[r].src.split("frameId=")[1].split("&")[0],
-                t = o[r].src.split("placementId=")[1].split('"')[0],
+                //e = o[r].src.split("frameId=")[1].split("&")[0],
+                //t = o[r].src.split("placementId=")[1].split('"')[0],
                 -1 !== e && -1 !== t && n.push({
                     frameId: e,
                     placementId: t
